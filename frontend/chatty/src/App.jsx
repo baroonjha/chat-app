@@ -3,6 +3,7 @@ import './App.css'
 import io from 'socket.io-client'
 import {nanoid} from 'nanoid'
 
+// for localhost use http://locahost:5000 in the below line
 const socket  = io("https://chat-app-backend-sage.vercel.app/")
 const userName = nanoid(4)
 

@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+body{
+  background-color: aquamarine;
+}
+
 input{
   font-size: 20px;
 }

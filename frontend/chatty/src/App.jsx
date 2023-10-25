@@ -3,7 +3,7 @@ import './App.css'
 import io from 'socket.io-client'
 import {nanoid} from 'nanoid'
 
-const socket  = io("https://chat-app-backend-pied.vercel.app/")
+const socket  = io("https://chat-app-backend-sage.vercel.app/")
 const userName = nanoid(4)
 
 function App() {
